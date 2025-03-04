@@ -8,7 +8,7 @@
 
 project = 'toolchain'
 copyright = '2023, Artem Vesnin'
-author = 'Artem Vesnin'
+author = 'Artem Vesnin, Artem Pilyavin'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -34,3 +34,8 @@ source_suffix = {
     '.md': 'markdown',
 }
 
+latex_engine = 'xelatex'
+latex_elements = {
+    'papersize': 'a4paper',
+    'pointsize': '12pt',
+}
