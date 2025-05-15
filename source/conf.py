@@ -6,19 +6,18 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'toolchain'
-copyright = '2023, Artem Vesnin'
-author = 'Artem Vesnin & Artem Pilyavin'
+project = 'Course'
+copyright = '2025, Artem Pilyavin'
+author = 'Artem Pilyavin'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser']
+extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = ['projects/mtracker/*',
-                    'README.md']
+exclude_patterns = []
 
 language = 'ru'
 
@@ -27,10 +26,3 @@ language = 'ru'
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
-
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.txt': 'restructuredtext',
-    '.md': 'markdown',
-}
-

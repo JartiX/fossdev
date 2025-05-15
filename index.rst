@@ -16,7 +16,15 @@
    :glob:
    :caption: Раздел 1. Введение, подходы к программированию 
 
+Рациональные дроби
+============
 
+.. toctree::
+   :maxdepth: 2
+   
+   
+   educational_materials/rational/rational.rst
+   
 Терминология 
 ============
 
